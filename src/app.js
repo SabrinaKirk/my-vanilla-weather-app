@@ -51,7 +51,7 @@ function displayForecast(response) {
                     forecastDay.weather[0].icon
                   }@2x.png"
                   alt=""
-                  width="36"
+                  width="45"
                 />
                 <div class="weather-forecast-temperature">
                   <span class="weather-forecast-temperature-max">${Math.round(
@@ -143,4 +143,4 @@ fahrenheit.addEventListener("click", displayFahrenheitTemperature);
 let celsius = document.querySelector("#celsius");
 celsius.addEventListener("click", displayCelsiusTemperature);
 
-search("New York");
+search("Berlin");
