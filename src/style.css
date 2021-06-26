@@ -1,5 +1,6 @@
 body {
   font-family: arial, sans-serif;
+  background: rgb(251, 250, 225);
 }
 
 h1 {
@@ -43,6 +44,12 @@ li:first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  background: linear-gradient(
+    109.6deg,
+    rgb(251, 250, 225) 11.2%,
+    rgb(206, 240, 185) 47.5%,
+    rgb(100, 163, 111) 100.2%
+  );
 }
 
 .overview {
@@ -88,7 +95,7 @@ li:first-letter {
 
 .weather-forecast-date {
   font-size: 16px;
-  opacity: 0.5;
+  opacity: 0.9;
   color: #ff3466;
   font-weight: bolder;
 }
